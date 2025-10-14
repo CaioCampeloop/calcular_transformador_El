@@ -33,6 +33,9 @@ namespace calcular_transformador_El
             var AreaA = Convert.ToDouble(textBox_AA.Text);
             var AreaB= Convert.ToDouble(textBox_AB.Text);
             var AreaTotal = AreaA * AreaB;
+            var Primario = Convert.ToDouble(textBox_P.Text);
+            var Secundario = Convert.ToDouble(textBox_S.Text);
+
             textBox_RA.Text = AreaTotal.ToString();
 
             var VoltasPorVolt = ConstanteG / AreaTotal;
@@ -41,6 +44,12 @@ namespace calcular_transformador_El
 
             textBoxPT.Text = PotenciaWats.ToString();
             textBoxVPV.Text = VoltasPorVolt.ToString();
+
+            var VoltasPrimario = Primario * VoltasPorVolt;
+            var VotasSecundario = Secundario * VoltasPorVolt;
+
+            textBox_VP.Text = VoltasPrimario.ToString();
+            textBox_VS.Text = VotasSecundario.ToString();
 
         }
 

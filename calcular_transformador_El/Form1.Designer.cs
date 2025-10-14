@@ -44,6 +44,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxPT = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.textBox_P = new System.Windows.Forms.TextBox();
+            this.textBox_S = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox_VS = new System.Windows.Forms.TextBox();
+            this.textBox_VP = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox_G
@@ -168,11 +176,83 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Potencia do Trafo";
             // 
+            // textBox_P
+            // 
+            this.textBox_P.Location = new System.Drawing.Point(64, 194);
+            this.textBox_P.Name = "textBox_P";
+            this.textBox_P.Size = new System.Drawing.Size(100, 20);
+            this.textBox_P.TabIndex = 15;
+            // 
+            // textBox_S
+            // 
+            this.textBox_S.Location = new System.Drawing.Point(64, 220);
+            this.textBox_S.Name = "textBox_S";
+            this.textBox_S.Size = new System.Drawing.Size(100, 20);
+            this.textBox_S.TabIndex = 16;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(23, 201);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 13);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Primario";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 227);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(61, 13);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Secundario";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(277, 378);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(93, 13);
+            this.label10.TabIndex = 22;
+            this.label10.Text = "Voltas Secundario";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(287, 348);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(73, 13);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "VoltasPrimario";
+            // 
+            // textBox_VS
+            // 
+            this.textBox_VS.Location = new System.Drawing.Point(376, 371);
+            this.textBox_VS.Name = "textBox_VS";
+            this.textBox_VS.Size = new System.Drawing.Size(100, 20);
+            this.textBox_VS.TabIndex = 20;
+            // 
+            // textBox_VP
+            // 
+            this.textBox_VP.Location = new System.Drawing.Point(376, 345);
+            this.textBox_VP.Name = "textBox_VP";
+            this.textBox_VP.Size = new System.Drawing.Size(100, 20);
+            this.textBox_VP.TabIndex = 19;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.textBox_VS);
+            this.Controls.Add(this.textBox_VP);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox_S);
+            this.Controls.Add(this.textBox_P);
             this.Controls.Add(this.textBoxPT);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -212,6 +292,14 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxPT;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox_P;
+        private System.Windows.Forms.TextBox textBox_S;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox_VS;
+        private System.Windows.Forms.TextBox textBox_VP;
     }
 }
 
